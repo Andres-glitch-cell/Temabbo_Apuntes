@@ -30,21 +30,36 @@
 
 ## 🧭 Tabla de Contenidos
 
-- [📌 Contenido](#contenido)
-- [🛠️ Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [🎨 Capturas & Demos](#capturas--demos)
-- [🧑‍💻 Lenguajes](#lenguajes)
-- [🚀 Comenzando](#comenzando)
-- [🧩 Estructura de la Base de Datos](#estructura-de-la-base-de-datos)
-- [🧮 Consultas SQL Avanzadas](#consultas-sql-avanzadas)
-- [🔧 Procedimientos, Triggers y Funciones](#procedimientos-triggers-y-funciones)
-- [🛡 Seguridad y Buenas Prácticas](#seguridad-y-buenas-prácticas)
-- [🖥 Uso avanzado de phpMyAdmin](#uso-avanzado-de-phpmyadmin)
-- [👥 Colaboradores Destacados](#colaboradores-destacados)
-- [🙋 Sobre los Autores](#sobre-los-autores)
-- [🤝 Contribuciones](#contribuciones)
-- [📬 Contacto](#contacto)
-- [📄 Licencia](#licencia)
+- [📌 Contenido](#contenido)  
+  _Resumen general del material cubierto en el repositorio, con explicaciones sobre la estructura de las bases de datos y conceptos básicos._  
+- [🛠️ Tecnologías Utilizadas](#tecnologías-utilizadas)  
+  _Listado y descripción de las principales herramientas y tecnologías usadas para manejar y optimizar las bases de datos._  
+- [🎨 Capturas & Demos](#capturas--demos)  
+  _Ejemplos visuales y gifs que muestran el funcionamiento y la interfaz de la base de datos y del sistema Habbo Retro._  
+- [🧑‍💻 Lenguajes](#lenguajes)  
+  _Lenguajes de programación y marcado relevantes para la creación y manipulación de bases de datos y documentación._  
+- [🚀 Comenzando](#comenzando)  
+  _Guía rápida para clonar el repositorio y comenzar a utilizar los apuntes y ejemplos._  
+- [🧩 Estructura de la Base de Datos](#estructura-de-la-base-de-datos)  
+  _Descripción detallada de las tablas principales que forman la base de datos de Habbo, con ejemplos de código SQL para crear y entender cada una._  
+- [🧮 Consultas SQL Avanzadas](#consultas-sql-avanzadas)  
+  _Consultas SQL optimizadas y ejemplos para obtener datos complejos, filtrados y ordenados que ayuden a administrar la información._  
+- [🔧 Procedimientos, Triggers y Funciones](#procedimientos-triggers-y-funciones)  
+  _Código y ejemplos de cómo automatizar tareas dentro de la base de datos usando procedimientos almacenados, triggers y funciones personalizadas._  
+- [🛡 Seguridad y Buenas Prácticas](#seguridad-y-buenas-prácticas)  
+  _Consejos clave para proteger la base de datos y evitar vulnerabilidades comunes, garantizando la integridad y seguridad._  
+- [🖥 Uso avanzado de phpMyAdmin](#uso-avanzado-de-phpmyadmin)  
+  _Tutoriales y trucos para sacar el máximo provecho de phpMyAdmin, una herramienta esencial para administrar bases de datos MySQL/MariaDB._  
+- [👥 Colaboradores Destacados](#colaboradores-destacados)  
+  _Reconocimiento a las personas que han aportado al proyecto y sus roles principales._  
+- [🙋 Sobre los Autores](#sobre-los-autores)  
+  _Información sobre los creadores y mantenedores del repositorio._  
+- [🤝 Contribuciones](#contribuciones)  
+  _Guía para que otros desarrolladores colaboren y aporten mejoras al proyecto._  
+- [📬 Contacto](#contacto)  
+  _Formas de contactar a los autores para dudas, sugerencias o soporte._  
+- [📄 Licencia](#licencia)  
+  _Detalles legales sobre el uso, distribución y modificación del contenido del repositorio._
 
 ---
 
@@ -61,4 +76,9 @@ Las bases de datos de Habbo Hotel Retro constan principalmente de tablas para:
 - Amigos y relaciones (`friends`)
 - Logs y estadísticas
 
-Cada tabla está normalizada para optimizar consultas y minimizar duplicados.
+Cada tabla está normalizada para optimizar consultas y minimizar duplicados, asegurando una gestión eficiente de la información dentro del servidor retro.
+
+---
+
+(El resto de contenido sigue igual, pero con estas descripciones para cada sección en la tabla de contenidos.)
+

@@ -1,20 +1,30 @@
+<!-- Banner principal animado -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=180&section=header&text=Temabbo%20Apuntes&fontSize=35&fontColor=ffffff&animation=fadeIn" alt="Temabbo Apuntes Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=180&section=header&text=Temabbo%20Apuntes&fontSize=38&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Andres-glitch-cell/Temabbo_Apuntes?style=social" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/Andres-glitch-cell/Temabbo_Apuntes?style=social" alt="GitHub forks">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Andres-glitch-cell.Temabbo_Apuntes" alt="visitors">
+  <img src="https://img.shields.io/github/stars/Andres-glitch-cell/Temabbo_Apuntes?style=social" />
+  <img src="https://img.shields.io/github/forks/Andres-glitch-cell/Temabbo_Apuntes?style=social" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Andres-glitch-cell.Temabbo_Apuntes" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?color=6C78AF&size=25&center=true&vCenter=true&width=1000&lines=💻+Temabbo+Apuntes+para+Habbo;📚+Todo+sobre+bases+de+datos+retro;⚙️+MySQL,+Triggers,+Procedimientos+;✨+phpMyAdmin,+Consultas+y+Optimización" />
 </p>
 
 ---
 
 # 🏨 Temabbo Apuntes
 
-📚 Apuntes detallados sobre el manejo de bases de datos del popular juego **Habbo**, con enfoque en la práctica y comprensión de estructuras, consultas SQL y herramientas como **phpMyAdmin**, **MySQL** y **MariaDB**.
+📚 Este repositorio contiene apuntes técnicos para administrar y entender las **bases de datos** utilizadas en servidores de tipo **Habbo Hotel Retro**, usando herramientas como:
 
-> 🧠 Ideal para desarrolladores de retro servers, admins, moderadores técnicos, o cualquier fan del universo Habbo que quiera aprender sobre su backend.
+- 📦 **MySQL / MariaDB**
+- 🛠 **phpMyAdmin**
+- 🧠 **Consultas SQL y Triggers**
+- 🚀 **Optimización y seguridad**
+
+> Ideal para desarrolladores, administradores de retroservers y entusiastas de los sistemas backend de Habbo.
 
 ---
 
@@ -22,46 +32,33 @@
 
 - [📌 Contenido](#contenido)
 - [🛠️ Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [🎨 Capturas & Demos](#capturas--demos)
 - [🧑‍💻 Lenguajes](#lenguajes)
 - [🚀 Comenzando](#comenzando)
-- [🖼️ Capturas de Pantalla](#capturas-de-pantalla)
-- [🙋‍♂️ Sobre el Autor](#sobre-el-autor)
-- [📬 Contacto](#contacto)
+- [🧩 Estructura de la Base de Datos](#estructura-de-la-base-de-datos)
+- [🧮 Consultas SQL Avanzadas](#consultas-sql-avanzadas)
+- [🔧 Procedimientos, Triggers y Funciones](#procedimientos-triggers-y-funciones)
+- [🛡 Seguridad y Buenas Prácticas](#seguridad-y-buenas-prácticas)
+- [🖥 Uso avanzado de phpMyAdmin](#uso-avanzado-de-phpmyadmin)
+- [👥 Colaboradores Destacados](#colaboradores-destacados)
+- [🙋 Sobre los Autores](#sobre-los-autores)
 - [🤝 Contribuciones](#contribuciones)
+- [📬 Contacto](#contacto)
 - [📄 Licencia](#licencia)
 
 ---
 
 ## 📌 Contenido
 
-- 📁 Introducción a las bases de datos de Habbo  
-- 🧩 Estructura y relaciones de las tablas principales  
-- 🧮 Consultas SQL comunes y avanzadas  
-- ⚙️ Procedimientos almacenados y triggers  
-- 🚀 Optimización y mantenimiento de la base de datos  
-- 🛠️ Herramientas y recursos adicionales  
+### 🏗 Introducción a la estructura de las bases de datos de Habbo
 
----
+Las bases de datos de Habbo Hotel Retro constan principalmente de tablas para:
 
-## 🛠️ Tecnologías Utilizadas
+- Usuarios (`users`)
+- Salas (`rooms`)
+- Muebles (`items`)
+- Inventarios (`user_items`)
+- Amigos y relaciones (`friends`)
+- Logs y estadísticas
 
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-6C78AF?style=for-the-badge&logo=phpmyadmin&logoColor=white)
-
----
-
-## 🧑‍💻 Lenguajes
-
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
-
----
-
-## 🚀 Comenzando
-
-Para comenzar a trabajar con este repositorio:
-
-```bash
-git clone https://github.com/Andres-glitch-cell/Temabbo_Apuntes.git
-cd Temabbo_Apuntes
+Cada tabla está normalizada para optimizar consultas y minimizar duplicados.

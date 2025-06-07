@@ -1,10 +1,5 @@
-<!-- GIF animado grande arriba para efecto visual -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="100%" />
-</p>
-
 <!-- Banner principal animado -->
-<p align="center">
+<p align="center" style="position: relative; margin-top: -150px;">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=180&section=header&text=Temabbo%20Apuntes&fontSize=38&fontColor=ffffff&animation=fadeIn" />
 </p>
 

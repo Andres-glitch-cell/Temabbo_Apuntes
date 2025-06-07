@@ -3,6 +3,19 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=180&section=header&text=Temabbo%20Apuntes&fontSize=38&fontColor=ffffff&animation=fadeIn" />
 </p>
 
+<!-- Banners adicionales -->
+<p align="center" style="margin-top: 20px;">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=8B93D6&height=80&section=footer&text=Bases%20de%20Datos%20Retro%20+%20MySQL&fontSize=20&fontColor=ffffff&animation=twinkle" />
+</p>
+
+<p align="center" style="margin-top: 15px;">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=4B79A1&height=80&section=footer&text=Optimización%20y%20Seguridad%20de%20Datos&fontSize=20&fontColor=ffffff&animation=fadeIn" />
+</p>
+
+<p align="center" style="margin-top: 15px;">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=6C78AF&height=80&section=footer&text=Triggers%20y%20Procedimientos%20Almacenados&fontSize=20&fontColor=ffffff&animation=slideIn" />
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/github/stars/Andres-glitch-cell/Temabbo_Apuntes?style=social" />
   <img src="https://img.shields.io/github/forks/Andres-glitch-cell/Temabbo_Apuntes?style=social" />

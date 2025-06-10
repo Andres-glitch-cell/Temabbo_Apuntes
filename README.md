@@ -1,8 +1,3 @@
-<!-- Banner principal animado -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=180&section=header&text=Temabbo%20Apuntes&fontSize=38&fontColor=ffffff&animation=fadeIn" />
-</p>
-
 <!-- Badges mejorados y coloridos -->
 <p align="center">
   <!-- GitHub -->
@@ -18,6 +13,11 @@
   <!-- Estado y soporte -->
   <img src="https://img.shields.io/badge/Estado-Activo-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Soporte-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+</p>
+
+<!-- Banner principal animado -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=180&section=header&text=Temabbo%20Apuntes&fontSize=38&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <!-- Intro animada -->

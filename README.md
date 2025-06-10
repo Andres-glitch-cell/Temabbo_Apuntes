@@ -19,27 +19,27 @@
 
 ## 📌 Contenido
 
-- [Estructura de la Base de Datos](#-estructura-de-la-base-de-datos)
-- [Consultas SQL Avanzadas](#-consultas-sql-avanzadas)
-- [Procedimientos, Triggers y Funciones](#-procedimientos-triggers-y-funciones)
-- [Seguridad y Buenas Prácticas](#-seguridad-y-buenas-prácticas)
-- [Uso avanzado de phpMyAdmin](#-uso-avanzado-de-phpmyadmin)
-- [Colaboradores Destacados](#-colaboradores-destacados)
-- [Sobre los Autores](#-sobre-los-autores)
-- [Contribuciones](#-contribuciones)
-- [Contacto](#-contacto)
-- [Licencia](#-licencia)
+- [🧩 Estructura de la Base de Datos](#-estructura-de-la-base-de-datos)
+- [🧮 Consultas SQL Avanzadas](#-consultas-sql-avanzadas)
+- [🔧 Procedimientos, Triggers y Funciones](#-procedimientos-triggers-y-funciones)
+- [🛡 Seguridad y Buenas Prácticas](#-seguridad-y-buenas-prácticas)
+- [🖥 Uso avanzado de phpMyAdmin](#-uso-avanzado-de-phpmyadmin)
+- [👥 Colaboradores Destacados](#-colaboradores-destacados)
+- [🙋 Sobre los Autores](#-sobre-los-autores)
+- [🤝 Contribuciones](#-contribuciones)
+- [📬 Contacto](#-contacto)
+- [📄 Licencia](#-licencia)
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=🧩%20Estructura%20de%20la%20Base%20de%20Datos&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🧩%20Estructura%20de%20la%20Base%20de%20Datos&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 🧩 Estructura de la Base de Datos
 
-Explicación detallada de las tablas principales, relaciones y claves foráneas.  
-Incluye diagramas y ejemplos de esquemas.
+La base de datos está diseñada para gestionar de forma eficiente todos los aspectos de un entorno retro de Habbo.  
+Incluye módulos para usuarios, inventario, salas y más, con relaciones lógicas y optimización para consultas rápidas.
 
 - **Usuarios:** Información básica, roles y permisos.
 - **Inventario:** Relación de objetos y usuarios.
@@ -49,7 +49,7 @@ Incluye diagramas y ejemplos de esquemas.
 
 <!-- Sección de código llamativa -->
 <p align="center">
-  <img src="https://img.shields.io/badge/C%C3%B3digo%20SQL-Optimizado%20y%20Colorido-6C78AF?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%C3%B3digo%20SQL-Optimizado%20y%20Colorido-43e97b?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
 <p align="center">
@@ -64,7 +64,7 @@ Incluye diagramas y ejemplos de esquemas.
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=🧮%20Consultas%20SQL%20Avanzadas&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🧮%20Consultas%20SQL%20Avanzadas&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 🧮 Consultas SQL Avanzadas
@@ -81,7 +81,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=🔧%20Procedimientos%2C%20Triggers%20y%20Funciones&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🔧%20Procedimientos%2C%20Triggers%20y%20Funciones&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 🔧 Procedimientos, Triggers y Funciones
@@ -93,7 +93,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=🛡%20Seguridad%20y%20Buenas%20Prácticas&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🛡%20Seguridad%20y%20Buenas%20Prácticas&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 🛡 Seguridad y Buenas Prácticas
@@ -105,7 +105,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=🖥%20Uso%20avanzado%20de%20phpMyAdmin&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🖥%20Uso%20avanzado%20de%20phpMyAdmin&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 🖥 Uso avanzado de phpMyAdmin
@@ -117,7 +117,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=👥%20Colaboradores%20Destacados&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=👥%20Colaboradores%20Destacados&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 👥 Colaboradores Destacados
@@ -129,7 +129,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=🙋%20Sobre%20los%20Autores&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🙋%20Sobre%20los%20Autores&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 🙋 Sobre los Autores
@@ -139,7 +139,7 @@ Proyecto creado por entusiastas de la retro-programación y la gestión de bases
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=🤝%20Contribuciones&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🤝%20Contribuciones&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 🤝 Contribuciones
@@ -150,7 +150,7 @@ Consulta la [guía de contribución](CONTRIBUTING.md) y abre un Pull Request.
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=📬%20Contacto&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=📬%20Contacto&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 📬 Contacto
@@ -161,7 +161,7 @@ Consulta la [guía de contribución](CONTRIBUTING.md) y abre un Pull Request.
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=📄%20Licencia&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=📄%20Licencia&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 📄 Licencia

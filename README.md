@@ -3,11 +3,21 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=180&section=header&text=Temabbo%20Apuntes&fontSize=38&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-<!-- Badges -->
+<!-- Badges mejorados y coloridos -->
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Andres-glitch-cell/Temabbo_Apuntes?style=social" />
-  <img src="https://img.shields.io/github/forks/Andres-glitch-cell/Temabbo_Apuntes?style=social" />
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Andres-glitch-cell.Temabbo_Apuntes" />
+  <!-- GitHub -->
+  <img src="https://img.shields.io/github/stars/Andres-glitch-cell/Temabbo_Apuntes?style=for-the-badge&label=Stars&color=6C78AF&logo=github" />
+  <img src="https://img.shields.io/github/forks/Andres-glitch-cell/Temabbo_Apuntes?style=for-the-badge&label=Forks&color=43e97b&logo=github" />
+  <img src="https://img.shields.io/github/issues/Andres-glitch-cell/Temabbo_Apuntes?style=for-the-badge&label=Issues&color=fc466b&logo=github" />
+  <img src="https://img.shields.io/github/license/Andres-glitch-cell/Temabbo_Apuntes?style=for-the-badge&label=License&color=3f5efb" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Andres-glitch-cell.Temabbo_Apuntes&style=for-the-badge&color=38f9d7" />
+  <!-- Tecnologías -->
+  <img src="https://img.shields.io/badge/MySQL-Optimizado-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/phpMyAdmin-Soportado-fbaf3e?style=for-the-badge&logo=phpmyadmin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Workbench-Compatible-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
+  <!-- Estado y soporte -->
+  <img src="https://img.shields.io/badge/Estado-Activo-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Soporte-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
 </p>
 
 <!-- Intro animada -->

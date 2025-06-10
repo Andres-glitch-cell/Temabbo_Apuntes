@@ -47,16 +47,30 @@ Incluye diagramas y ejemplos de esquemas.
 
 ---
 
+<!-- Sección de código llamativa -->
+<p align="center">
+  <img src="https://img.shields.io/badge/C%C3%B3digo%20SQL-Optimizado%20y%20Colorido-6C78AF?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,php" height="40" />
+</p>
+
+<p align="center">
+  <b>💡 Ejemplos prácticos y avanzados para tu base de datos retro 💡</b><br>
+  <span>¡Explora consultas, procedimientos y triggers con sintaxis resaltada!</span>
+</p>
+
+---
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=6C78AF&height=100&section=header&text=🧮%20Consultas%20SQL%20Avanzadas&fontSize=30&fontColor=ffffff" />
 </p>
 
 ## 🧮 Consultas SQL Avanzadas
 
-Ejemplos prácticos de consultas complejas:
-
 ```sql
--- Obtener los 10 usuarios con más objetos
+-- 🎯 Consulta destacada: Top 10 usuarios con más objetos
 SELECT usuario_id, COUNT(objeto_id) AS total_objetos
 FROM inventario
 GROUP BY usuario_id

@@ -1,16 +1,36 @@
-<!-- Badges tipo pestañitas arriba del todo -->
-<p align="left">
-  <img src="https://img.shields.io/github/stars/Andres-glitch-cell/Temabbo_Apuntes?style=for-the-badge&label=Stars&color=6C78AF&logo=github" />
-  <img src="https://img.shields.io/github/forks/Andres-glitch-cell/Temabbo_Apuntes?style=for-the-badge&label=Forks&color=43e97b&logo=github" />
-  <img src="https://img.shields.io/github/issues/Andres-glitch-cell/Temabbo_Apuntes?style=for-the-badge&label=Issues&color=fc466b&logo=github" />
-  <img src="https://img.shields.io/github/license/Andres-glitch-cell/Temabbo_Apuntes?style=for-the-badge&label=License&color=3f5efb" />
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Andres-glitch-cell.Temabbo_Apuntes&style=for-the-badge&color=38f9d7" />
-  <img src="https://img.shields.io/badge/MySQL-Optimizado-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/phpMyAdmin-Soportado-fbaf3e?style=for-the-badge&logo=phpmyadmin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Workbench-Compatible-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Estado-Activo-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Soporte-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
-</p>
+<!-- Badges tipo pestañitas arriba del todo, ahora compactos y alineados a la izquierda -->
+<div align="left">
+  <a href="https://github.com/Andres-glitch-cell/Temabbo_Apuntes/stargazers">
+    <img src="https://img.shields.io/github/stars/Andres-glitch-cell/Temabbo_Apuntes?style=plastic&label=Stars&color=6C78AF&logo=github" alt="Stars" height="22"/>
+  </a>
+  <a href="https://github.com/Andres-glitch-cell/Temabbo_Apuntes/network/members">
+    <img src="https://img.shields.io/github/forks/Andres-glitch-cell/Temabbo_Apuntes?style=plastic&label=Forks&color=43e97b&logo=github" alt="Forks" height="22"/>
+  </a>
+  <a href="https://github.com/Andres-glitch-cell/Temabbo_Apuntes/issues">
+    <img src="https://img.shields.io/github/issues/Andres-glitch-cell/Temabbo_Apuntes?style=plastic&label=Issues&color=fc466b&logo=github" alt="Issues" height="22"/>
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/Andres-glitch-cell/Temabbo_Apuntes?style=plastic&label=License&color=3f5efb" alt="License" height="22"/>
+  </a>
+  <a href="#">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=Andres-glitch-cell.Temabbo_Apuntes&style=plastic&color=38f9d7" alt="Visitors" height="22"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/MySQL-Optimizado-4479A1?style=plastic&logo=mysql&logoColor=white" alt="MySQL" height="22"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/phpMyAdmin-Soportado-fbaf3e?style=plastic&logo=phpmyadmin&logoColor=white" alt="phpMyAdmin" height="22"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Workbench-Compatible-00758F?style=plastic&logo=mysql&logoColor=white" alt="Workbench" height="22"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Estado-Activo-brightgreen?style=plastic" alt="Estado" height="22"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Soporte-Discord-7289DA?style=plastic&logo=discord&logoColor=white" alt="Discord" height="22"/>
+  </a>
+</div>
 
 <!-- Banner principal animado -->
 <p align="center">

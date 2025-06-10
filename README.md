@@ -10,12 +10,16 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=Andres-glitch-cell.Temabbo_Apuntes" />
 </p>
 
-<!-- Intro -->
+<!-- Intro animada -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?color=6C78AF&size=25&center=true&vCenter=true&width=1000&lines=💻+Temabbo+Apuntes+para+Habbo;📚+Todo+sobre+bases+de+datos+retro;⚙️+MySQL,+Triggers,+Procedimientos+;✨+phpMyAdmin,+Consultas+y+Optimización" />
 </p>
 
 ---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=fc466b&color2=3f5efb&height=100&section=header&text=📌%20Contenido&fontSize=30&fontColor=ffffff&animation=twinkling" />
+</p>
 
 ## 📌 Contenido
 
@@ -33,7 +37,7 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🧩%20Estructura%20de%20la%20Base%20de%20Datos&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🧩%20Estructura%20de%20la%20Base%20de%20Datos&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 ## 🧩 Estructura de la Base de Datos
@@ -47,7 +51,10 @@ Incluye módulos para usuarios, inventario, salas y más, con relaciones lógica
 
 ---
 
-<!-- Sección de código llamativa -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=fc466b&color2=3f5efb&height=100&section=header&text=💡%20Código%20SQL%20Animado&fontSize=30&fontColor=ffffff&animation=twinkling" />
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/C%C3%B3digo%20SQL-Optimizado%20y%20Colorido-43e97b?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
@@ -64,7 +71,7 @@ Incluye módulos para usuarios, inventario, salas y más, con relaciones lógica
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🧮%20Consultas%20SQL%20Avanzadas&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🧮%20Consultas%20SQL%20Avanzadas&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 ## 🧮 Consultas SQL Avanzadas
@@ -81,7 +88,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🔧%20Procedimientos%2C%20Triggers%20y%20Funciones&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=fc466b&color2=3f5efb&height=100&section=header&text=🔧%20Procedimientos%2C%20Triggers%20y%20Funciones&fontSize=30&fontColor=ffffff&animation=twinkling" />
 </p>
 
 ## 🔧 Procedimientos, Triggers y Funciones
@@ -93,7 +100,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🛡%20Seguridad%20y%20Buenas%20Prácticas&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🛡%20Seguridad%20y%20Buenas%20Prácticas&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 ## 🛡 Seguridad y Buenas Prácticas
@@ -105,7 +112,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🖥%20Uso%20avanzado%20de%20phpMyAdmin&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=fc466b&color2=3f5efb&height=100&section=header&text=🖥%20Uso%20avanzado%20de%20phpMyAdmin&fontSize=30&fontColor=ffffff&animation=twinkling" />
 </p>
 
 ## 🖥 Uso avanzado de phpMyAdmin
@@ -117,7 +124,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=👥%20Colaboradores%20Destacados&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=👥%20Colaboradores%20Destacados&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 ## 👥 Colaboradores Destacados
@@ -129,7 +136,7 @@ LIMIT 10;
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🙋%20Sobre%20los%20Autores&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=fc466b&color2=3f5efb&height=100&section=header&text=🙋%20Sobre%20los%20Autores&fontSize=30&fontColor=ffffff&animation=twinkling" />
 </p>
 
 ## 🙋 Sobre los Autores
@@ -139,7 +146,7 @@ Proyecto creado por entusiastas de la retro-programación y la gestión de bases
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🤝%20Contribuciones&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=🤝%20Contribuciones&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 ## 🤝 Contribuciones
@@ -150,7 +157,7 @@ Consulta la [guía de contribución](CONTRIBUTING.md) y abre un Pull Request.
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=📬%20Contacto&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=fc466b&color2=3f5efb&height=100&section=header&text=📬%20Contacto&fontSize=30&fontColor=ffffff&animation=twinkling" />
 </p>
 
 ## 📬 Contacto
@@ -161,7 +168,7 @@ Consulta la [guía de contribución](CONTRIBUTING.md) y abre un Pull Request.
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=📄%20Licencia&fontSize=30&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=43e97b&color2=38f9d7&height=100&section=header&text=📄%20Licencia&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 ## 📄 Licencia

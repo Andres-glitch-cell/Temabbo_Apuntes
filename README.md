@@ -25,6 +25,7 @@
 
 - [🧩 Estructura de la Base de Datos](#-estructura-de-la-base-de-datos)
 - [🧮 Consultas SQL Avanzadas](#-consultas-sql-avanzadas)
+- [🌈 Consultas SQL en MySQL, phpMyAdmin y Workbench](#-consultas-sql-en-mysql-phpmyadmin-y-workbench)
 - [🔧 Procedimientos, Triggers y Funciones](#-procedimientos-triggers-y-funciones)
 - [🛡 Seguridad y Buenas Prácticas](#-seguridad-y-buenas-prácticas)
 - [🖥 Uso avanzado de phpMyAdmin](#-uso-avanzado-de-phpmyadmin)
@@ -84,6 +85,71 @@ GROUP BY usuario_id
 ORDER BY total_objetos DESC
 LIMIT 10;
 ```
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00c3ff&color2=ffff1c&height=100&section=header&text=🌈%20Consultas%20SQL%20en%20MySQL%2C%20phpMyAdmin%20y%20Workbench&fontSize=30&fontColor=ffffff&animation=twinkling" />
+</p>
+
+## 🌈 Consultas SQL en MySQL, phpMyAdmin y Workbench
+
+### 🔗 JOIN clásico
+
+```sql
+-- Obtener el nombre de usuario y el nombre de la sala donde está cada usuario
+SELECT usuarios.nombre AS usuario, salas.nombre AS sala
+FROM usuarios
+INNER JOIN salas ON usuarios.sala_id = salas.id;
+```
+
+### 🔍 Subconsulta
+
+```sql
+-- Listar usuarios que tienen más de 5 objetos en su inventario
+SELECT nombre
+FROM usuarios
+WHERE id IN (
+  SELECT usuario_id
+  FROM inventario
+  GROUP BY usuario_id
+  HAVING COUNT(objeto_id) > 5
+);
+```
+
+### 🏆 LEFT JOIN
+
+```sql
+-- Mostrar todos los usuarios y, si tienen, el nombre de su sala asignada
+SELECT usuarios.nombre, salas.nombre AS sala
+FROM usuarios
+LEFT JOIN salas ON usuarios.sala_id = salas.id;
+```
+
+### 📊 Consulta Agregada
+
+```sql
+-- Contar cuántos objetos tiene cada usuario
+SELECT usuario_id, COUNT(objeto_id) AS total_objetos
+FROM inventario
+GROUP BY usuario_id
+ORDER BY total_objetos DESC;
+```
+
+### 🧩 Consulta con ORDER BY y LIMIT
+
+```sql
+-- Mostrar los 3 usuarios con más objetos
+SELECT usuario_id, COUNT(objeto_id) AS total_objetos
+FROM inventario
+GROUP BY usuario_id
+ORDER BY total_objetos DESC
+LIMIT 3;
+```
+
+---
+
+> Todas estas consultas funcionan en **phpMyAdmin**, **MySQL Workbench** y cualquier cliente MySQL compatible.
 
 ---
 

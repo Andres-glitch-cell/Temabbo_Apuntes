@@ -1,0 +1,9 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black; /* Fondo negro para ver bien las partículas */
+  overflow: hidden; /* Evita scroll */
+}
+

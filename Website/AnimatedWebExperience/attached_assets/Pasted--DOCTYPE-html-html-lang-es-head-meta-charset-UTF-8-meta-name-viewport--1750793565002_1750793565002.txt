@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Temabbo Ultra Mega Animado 6000 Lines Challenge</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Fredoka+One&family=Poppins&display=swap"
+        rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+
+    <style>
+        .letter {
+            display: inline-block;
+            opacity: 0;
+        }
+
+        .icon-rotating {
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .fade-in {
+            opacity: 0;
+        }
+
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0e1a40, #0f213a);
+            color: #c1d5fe;
+            overflow-x: hidden;
+            min-height: 4000px;
+            transition: background 0.7s ease, color 0.7s ease;
+        }
+
+        /* HEADER */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 30, 60, 0.95);
+            box-shadow: 0 0 30px #2c3e77;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            z-index: 9999;
+            animation: headerPulse 5s ease-in-out infinite alternate;
+            backdrop-filter: saturate(180%) blur(8px);
+        }
+
+        @keyframes headerPulse {
+            0% {
+                box-shadow: 0 0 10px #2c3e77;
+            }
+
+            50% {
+                box-shadow: 0 0 40px #5971ff;
+            }
+
+            100% {
+                box-shadow: 0 0 10px #2c3e77;
+            }
+        }
+
+        header h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.8rem;
+            color: #a0b4ff;
+            text-shadow: 0 0 10px #89a7ff;
+            cursor: pointer;
+            user-select: none;
+            transition: color 0.4s ease;
+        }
+
+        header h1:hover {
+            color: #e3eaff;
+            text-shadow: 0 0 25px #a8bfff, 0 0 40px #cad8ff;
+            animation: pulseTitle 1.2s ease infinite alternate;
+        }
+
+        @keyframes pulseTitle {
+            from {
+                transform: scale(1) rotate(0deg);
+            }
+
+            to {
+                transform: scale(1.1) rotate(2deg);
+            }
+        }
+
+        nav {
+            display: flex;
+            gap: 26px;
+        }
+
+        nav a {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: #dbe7ffaa;
+            position: relative;
+            padding-bottom: 4px;
+            transition: color 0.3s ease;
+            user-select: none;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #798cff;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #a8bbff;
+        }
+
+        nav a:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+        nav a:active {
+            color: #6a85ff;
+            text-shadow: 0 0 8px #8f9cff;
+        }
+
+        main {
+            margin-top: 100px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 120px;
+        }
+
+        h2 {
+            font-family: 'Fredoka One', cursive;
+            font-size: 3rem;
+            margin-bottom: 40px;
+            color: #b6c9ff;
+            text-align: center;
+            text-shadow:
+                0 0 6px #5b6dd6,
+                0 0 12px #7f90ff;
+            animation: glowText 3s ease-in-out infinite alternate;
+            cursor: default;
+            user-select: none;
+        }
+
+        @keyframes glowText {
+            0% {
+                text-shadow: 0 0 6px #5b6dd6, 0 0 12px #7f90ff;
+            }
+
+            100% {
+                text-shadow: 0 0 12px #a8bbff, 0 0 24px #cbd8ff;
+            }
+        }
+
+        h2:hover {
+            animation-play-state: paused;
+            color: #d7e1ff;
+            text-shadow:
+                0 0 12px #97aaff,
+                0 0 28px #b7c6ff;
+        }
+
+        /* Cards de contenido */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 28px;
+        }
+
+        .card {
+            background: linear-gradient(145deg, #1a2a6c, #233b8d);
+            border-radius: 22px;
+            padding: 24px 32px;
+            box-shadow:
+                0 8px 28px rgba(40, 70, 160, 0.8),
+                inset 0 0 20px #5471ff;
+            color: #dbe7ff;
+            font-weight: 700;
+            font-size: 1.15rem;
+            cursor: pointer;
+            transition:
+                box-shadow 0.5s ease,
+                transform 0.45s cubic-bezier(0.5, 1.15, 0.5, 1.3),
+                background 0.5s ease;
+            position: relative;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: -120%;
+            left: -100%;
+            width: 280%;
+            height: 300%;
+            background: linear-gradient(60deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.15),
+                    transparent);
+            transform: rotate(25deg);
+            transition: all 0.7s ease;
+            z-index: 1;
+        }
+
+        .card:hover::before {
+            top: -50%;
+            left: -20%;
+            transition-timing-function: cubic-bezier(0.3, 1, 0.5, 1);
+        }
+
+        .card:hover {
+            box-shadow:
+                0 12px 55px rgba(90, 120, 255, 0.9),
+                inset 0 0 40px #98b2ff;
+            transform: translateY(-14px) rotateZ(1deg);
+            background: linear-gradient(145deg, #2c3d8c, #3f50ad);
+            z-index: 10;
+        }
+
+        .card:active {
+            transform: translateY(-7px) scale(0.98);
+            box-shadow:
+                0 8px 40px rgba(70, 100, 220, 0.9),
+                inset 0 0 35px #809fff;
+        }
+
+        /* Botones con efectos brillantes */
+        .btn-bright {
+            background: linear-gradient(135deg, #5578ff, #89a4ff);
+            color: #e0e7ff;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 14px 28px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            box-shadow:
+                0 0 15px #677fff,
+                inset 0 0 30px #9ab2ff;
+            transition: all 0.4s ease;
+            user-select: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-bright::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 20%, transparent 70%);
+            transform: translateX(-100%) translateY(0) rotate(25deg);
+            transition: transform 0.6s ease;
+            pointer-events: none;
+        }
+
+        .btn-bright:hover::after {
+            transform: translateX(100%) translateY(0) rotate(25deg);
+        }
+
+        .btn-bright:hover {
+            background: linear-gradient(135deg, #a0b6ff, #c2d1ff);
+            box-shadow:
+                0 0 40px #a7b9ff,
+                inset 0 0 50px #d3e1ff;
+            color: #233966;
+            transform: scale(1.12) rotate(-3deg);
+        }
+
+        .btn-bright:active {
+            transform: scale(1) rotate(0deg);
+            box-shadow:
+                0 0 25px #8099ff,
+                inset 0 0 35px #b0c2ff;
+        }
+
+        /* Animación de parpadeo para textos */
+        .blink {
+            animation: blinkAnim 1.8s infinite;
+        }
+
+        @keyframes blinkAnim {
+
+            0%,
+            50%,
+            100% {
+                opacity: 1;
+            }
+
+            25%,
+            75% {
+                opacity: 0.2;
+            }
+        }
+
+        /* Scroll animado con AOS para diferentes efectos */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-up.aos-animate {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .zoom-in {
+            opacity: 0;
+            transform: scale(0.9);
+            transition: all 0.5s ease;
+        }
+
+        .zoom-in.aos-animate {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .slide-left {
+            opacity: 0;
+            transform: translateX(100px);
+            transition: all 0.7s ease;
+        }
+
+        .slide-left.aos-animate {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .slide-right {
+            opacity: 0;
+            transform: translateX(-100px);
+            transition: all 0.7s ease;
+        }
+
+        .slide-right.aos-animate {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* Efecto brillo en bordes para secciones */
+        section {
+            border: 2px solid transparent;
+            border-image: linear-gradient(45deg, #5a7aff, #a2bfff);
+            border-image-slice: 1;
+            padding: 40px 32px;
+            border-radius: 28px;
+            box-shadow:
+                0 0 30px #4059c6cc;
+            transition: box-shadow 0.5s ease, border-image 0.7s ease;
+        }
+
+        section:hover {
+            box-shadow:
+                0 0 50px #789cffdd,
+                inset 0 0 40px #abc2ff88;
+            border-image: linear-gradient(45deg, #9ec0ff, #e0ebff);
+        }
+
+        /* Footer con animación de onda */
+        footer {
+            margin-top: 140px;
+            text-align: center;
+            padding: 32px 16px;
+            font-size: 1rem;
+            color: #8ea5ffcc;
+            background: linear-gradient(135deg, #0a1c3f, #0f223d);
+            box-shadow: inset 0 0 50px #1e3b87cc;
+            position: relative;
+            overflow: hidden;
+        }
+
+        footer::before {
+            content: "";
+            position: absolute;
+            width: 300%;
+            height: 300%;
+            top: 50%;
+            left: 50%;
+            background: radial-gradient(circle, #6d85ff66 10%, transparent 70%);
+            transform: translate(-50%, -50%) scale(1);
+            animation: pulseWave 4.5s ease-in-out infinite;
+            z-index: 0;
+            filter: blur(80px);
+        }
+
+        @keyframes pulseWave {
+
+            0%,
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 0.7;
+            }
+
+            50% {
+                transform: translate(-50%, -50%) scale(1.3);
+                opacity: 0.3;
+            }
+        }
+
+        footer * {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Scroll to top button with rotation & glow */
+        #scrollTopBtn {
+            position: fixed;
+            right: 20px;
+            bottom: 40px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(145deg, #2a3e8c, #3e54bc);
+            box-shadow: 0 0 20px #718cff, inset 0 0 30px #9eb6ff;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #d0dfff;
+            font-size: 2rem;
+            user-select: none;
+            transition: transform 0.4s ease, box-shadow 0.3s ease;
+            z-index: 999;
+        }
+
+        #scrollTopBtn:hover {
+            box-shadow: 0 0 45px #a0b8ff, inset 0 0 45px #cad8ff;
+            transform: rotate(30deg) scale(1.15);
+        }
+
+        #scrollTopBtn:active {
+            transform: rotate(0deg) scale(1);
+        }
+
+        #scrollTopBtn:focus {
+            outline: none;
+            box-shadow: 0 0 55px #b3c4ff, inset 0 0 55px #dbe6ff;
+        }
+
+        /* Animación de texto parpadeante con sombra neón */
+        .neonText {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.4rem;
+            color: #93aaff;
+            text-shadow:
+                0 0 5px #7399ff,
+                0 0 10px #849fff,
+                0 0 20px #a1b4ff,
+                0 0 30px #b6c2ff,
+                0 0 40px #c6d1ff;
+            animation: neonPulse 3s ease-in-out infinite alternate;
+            user-select: none;
+        }
+
+        @keyframes neonPulse {
+            0% {
+                text-shadow:
+                    0 0 5px #7399ff,
+                    0 0 10px #849fff,
+                    0 0 20px #a1b4ff,
+                    0 0 30px #b6c2ff,
+                    0 0 40px #c6d1ff;
+                color: #93aaff;
+            }
+
+            100% {
+                text-shadow:
+                    0 0 10px #8caeff,
+                    0 0 20px #a8bbff,
+                    0 0 30px #bcd1ff,
+                    0 0 40px #cfdfff,
+                    0 0 50px #e0eaff;
+                color: #b6c8ff;
+            }
+        }
+
+        /* Animación hover para imágenes o bloques destacados */
+        .highlight {
+            position: relative;
+            overflow: hidden;
+            border-radius: 24px;
+            cursor: pointer;
+            transition: transform 0.5s ease, box-shadow 0.4s ease;
+            box-shadow: 0 0 22px #4059c6aa;
+        }
+
+        .highlight:hover {
+            transform: scale(1.07) rotateZ(1deg);
+            box-shadow:
+                0 0 55px #6989ffcc,
+                inset 0 0 40px #a2b8ffcc;
+        }
+
+        .highlight::after {
+            content: '';
+            position: absolute;
+            top: 10%;
+            left: -40%;
+            width: 60%;
+            height: 100%;
+            background: linear-gradient(120deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.15),
+                    transparent);
+            transform: skewX(-25deg);
+            transition: all 0.7s ease;
+        }
+
+        .highlight:hover::after {
+            left: 140%;
+            transition-timing-function: cubic-bezier(0.3, 1, 0.5, 1);
+        }
+
+        /* Scrollbar custom */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0f213a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #5978ff, #3a4ebb);
+            border-radius: 10px;
+            box-shadow: 0 0 10px #4f68f9;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(180deg, #8aafff, #6c85ff);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Temabbo Ultra Mega Animado 6000 Lines Challenge</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="neonText">Bienvenido a la animación máxima</h2>
+            <div class="card-grid">
+                <div class="card highlight">Hover me para ver magia</div>
+                <div class="card highlight">Animaciones sin parar</div>
+                <div class="card highlight blink">Texto parpadeante!</div>
+                <div class="card highlight">Efectos con sombra y brillo</div>
+            </div>
+            <button class="btn-bright" style="margin-top: 40px;">Botón brillante</button>
+        </section>
+
+        <section id="sobre" data-aos="slide-left" data-aos-delay="200">
+            <h2>Sobre Nosotros</h2>
+            <p class="fade-up" style="max-width: 700px; margin: 0 auto; text-align:center;">
+                Aquí creamos las animaciones más locas, vistosas y dinámicas para que tu web destaque del montón.<br />
+                Sin miedo a usar efectos, transiciones y transformaciones a tope.
+            </p>
+        </section>
+
+        <section id="proyectos" data-aos="slide-right" data-aos-delay="300">
+            <h2>Proyectos Destacados</h2>
+            <div class="card-grid">
+                <div class="card highlight">Proyecto 1: Glow intenso</div>
+                <div class="card highlight">Proyecto 2: Hover flip</div>
+                <div class="card highlight">Proyecto 3: Texto animado</div>
+                <div class="card highlight">Proyecto 4: Scroll Reveal</div>
+            </div>
+        </section>
+
+        <section id="contacto" data-aos="zoom-in" data-aos-delay="400">
+            <h2>Contacto</h2>
+            <form style="max-width: 480px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px;">
+                <input type="text" placeholder="Nombre"
+                    style="padding: 14px 18px; border-radius: 12px; border: none; box-shadow: inset 0 0 12px #5a7affaa; font-size: 1rem;" />
+                <input type="email" placeholder="Email"
+                    style="padding: 14px 18px; border-radius: 12px; border: none; box-shadow: inset 0 0 12px #5a7affaa; font-size: 1rem;" />
+                <textarea placeholder="Mensaje" rows="5"
+                    style="padding: 14px 18px; border-radius: 12px; border: none; box-shadow: inset 0 0 12px #5a7affaa; font-size: 1rem; resize: none;"></textarea>
+                <button class="btn-bright" type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2025 Temabbo Animaciones - Todos los derechos reservados
+    </footer>
+
+    <button id="scrollTopBtn" title="Ir arriba">↑</button>
+
+    <script>
+        // Animación entrada del título principal letra por letra
+        const mainTitle = document.querySelector('h1');
+        mainTitle.innerHTML = mainTitle.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({ loop: false })
+            .add({
+                targets: '.letter',
+                opacity: [0, 1],
+                translateY: [20, 0],
+                easing: "easeOutExpo",
+                duration: 850,
+                delay: (el, i) => 50 * i
+            });
+
+        // Animación de aparición de secciones al hacer scroll
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = 0;
+            anime({
+                targets: section,
+                opacity: [0, 1],
+                translateY: [50, 0],
+                delay: anime.stagger(100, { start: 400 }),
+                duration: 1000,
+                easing: 'easeOutQuad',
+                autoplay: false
+            });
+        });
+
+        // Animación de botones al pasar el mouse
+        const animatedButtons = document.querySelectorAll('button, .btn, .scrollBtn');
+        animatedButtons.forEach(btn => {
+            btn.addEventListener('mouseenter', () => {
+                anime({
+                    targets: btn,
+                    scale: 1.1,
+                    duration: 300,
+                    easing: 'easeOutExpo'
+                });
+            });
+            btn.addEventListener('mouseleave', () => {
+                anime({
+                    targets: btn,
+                    scale: 1,
+                    duration: 300,
+                    easing: 'easeOutExpo'
+                });
+            });
+        });
+
+        // Animación de íconos decorativos rotando
+        const decorativeIcons = document.querySelectorAll('.icon-rotating');
+        anime({
+            targets: decorativeIcons,
+            rotate: '1turn',
+            duration: 8000,
+            loop: true,
+            easing: 'linear'
+        });
+
+        // Puedes animar elementos con clase .fade-in cuando entran en viewport (extra suave)
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    anime({
+                        targets: entry.target,
+                        opacity: [0, 1],
+                        translateY: [20, 0],
+                        duration: 1000,
+                        easing: 'easeOutSine'
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+
+</body>
+
+</html>

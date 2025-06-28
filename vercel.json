@@ -1,5 +1,4 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "rootDirectory": "Website/AnimatedWebExperience/client"
+  "buildCommand": "cd Website/AnimatedWebExperience/client && npm run build",
+  "outputDirectory": "Website/AnimatedWebExperience/client/dist"
 }

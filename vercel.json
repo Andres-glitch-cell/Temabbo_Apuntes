@@ -2,4 +2,3 @@
   "buildCommand": "cd Website/AnimatedWebExperience/client && npm install && npm run build",
   "outputDirectory": "Website/AnimatedWebExperience/client/dist"
 }
-

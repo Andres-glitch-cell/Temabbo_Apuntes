@@ -1,4 +1,3 @@
-import Home from './pages/Home';
 import { motion } from 'framer-motion';
 import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
